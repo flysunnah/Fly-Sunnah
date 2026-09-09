@@ -148,6 +148,90 @@ Every organization can have its own configured presentation while sharing the sa
 
 **Logo · Brand · Colors · Typography · Login · Dashboard · Email · Invoice · PDF · Support · Footer · Custom Domain**
 
+## Fly Sunnah online presence
+
+Official/known destinations and discovery profiles for the `flysunnah` identity are collected below. Links marked **Found** come from the supplied inventory; the remaining links are discovery/profile URLs and are not asserted as active accounts.
+
+### Social & community
+
+- [Facebook](https://facebook.com/search/top/?q=flysunnah)
+- [Instagram](https://instagram.com/flysunnah)
+- [TikTok — Found](https://tiktok.com/search?q=flysunnah)
+- [YouTube](https://youtube.com/results?search_query=flysunnah)
+- [X / Twitter](https://x.com/search?q=flysunnah&f=user)
+- [Bluesky — Found](https://bsky.app/profile/flysunnah.bsky.social)
+- [Threads](https://threads.com/@flysunnah)
+- [LinkedIn](https://linkedin.com/search/results/people/?keywords=flysunnah)
+- [Pinterest](https://pinterest.com/search/users/?q=flysunnah)
+- [Telegram](https://t.me/flysunnah)
+- [Reddit](https://reddit.com/search/?type=user&q=flysunnah)
+- [Snapchat](https://snapchat.com/add/flysunnah)
+
+### Developer & technology
+
+- [GitHub — Found](https://github.com/flysunnah)
+- [Bitbucket — Found](https://bitbucket.org/flysunnah)
+- [GitLab](https://gitlab.com/search?search=flysunnah)
+- [Codeberg](https://codeberg.org/flysunnah)
+- [npm](https://npmjs.com/~flysunnah)
+- [Docker Hub](https://hub.docker.com/u/flysunnah)
+- [Replit](https://replit.com/@flysunnah)
+- [Hugging Face](https://huggingface.co/flysunnah)
+- [CodePen](https://codepen.io/flysunnah)
+- [LeetCode](https://leetcode.com/u/flysunnah)
+- [Kaggle](https://kaggle.com/flysunnah)
+- [Codewars](https://codewars.com/users/flysunnah)
+
+### Design & creative
+
+- [Dribbble — Found](https://dribbble.com/search/users/flysunnah)
+- [Behance](https://behance.net/search/users?search=flysunnah)
+- [DeviantArt — Found](https://deviantart.com/search?q=flysunnah)
+- [Flickr — Found](https://flickr.com/search/people/?username=flysunnah)
+- [Unsplash](https://unsplash.com/s/users/flysunnah)
+- [Pixabay](https://pixabay.com/users/search/flysunnah)
+- [PicsArt](https://picsart.com/u/flysunnah)
+- [ArtStation](https://artstation.com/flysunnah)
+- [Giphy](https://giphy.com/flysunnah)
+- [Civitai](https://civitai.com/user/flysunnah)
+
+### Publishing & profiles
+
+- [Medium — Found](https://medium.com/@flysunnah)
+- [Substack](https://substack.com/@flysunnah)
+- [Tumblr](https://flysunnah.tumblr.com/)
+- [Quora](https://quora.com/search?q=flysunnah)
+- [DEV Community](https://dev.to/flysunnah)
+- [Hashnode](https://hashnode.com/@flysunnah)
+- [Wikipedia](https://en.wikipedia.org/wiki/User:flysunnah)
+- [Goodreads](https://goodreads.com/search?q=flysunnah&search_type=people)
+- [Wattpad](https://wattpad.com/user/flysunnah)
+
+### Creator & business profiles
+
+- [Linktree — Found](https://linktr.ee/flysunnah)
+- [Beacons](https://beacons.ai/flysunnah)
+- [Bento](https://bento.me/flysunnah)
+- [WordPress](https://flysunnah.wordpress.com/)
+- [Blogspot](https://flysunnah.blogspot.com/)
+- [Gravatar](https://gravatar.com/flysunnah)
+- [About.me](https://about.me/flysunnah)
+- [Fiverr](https://fiverr.com/flysunnah)
+- [Upwork](https://upwork.com/freelancers/~flysunnah)
+- [Freelancer](https://freelancer.com/u/flysunnah)
+- [ResearchGate](https://researchgate.net/search/researcher?q=flysunnah)
+
+### Media & music
+
+- [Spotify](https://open.spotify.com/search/flysunnah)
+- [SoundCloud](https://soundcloud.com/flysunnah)
+- [Bandcamp](https://flysunnah.bandcamp.com/)
+- [Mixcloud](https://mixcloud.com/flysunnah)
+- [Suno](https://suno.com/@flysunnah)
+- [Vimeo](https://vimeo.com/search/people?q=flysunnah)
+- [Rumble](https://rumble.com/c/flysunnah)
+- [Dailymotion](https://dailymotion.com/flysunnah)
+
 ## Architecture
 
 The implementation direction is a modular enterprise core with strict module boundaries. It can begin as a modular monolith and extract independently scalable services only where justified.
