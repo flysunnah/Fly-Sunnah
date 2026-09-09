@@ -1,78 +1,254 @@
-# Fly Sunnah — Universal Enterprise Platform
+<div align="center">
 
-A configuration-driven, white-label, multi-organization enterprise platform foundation.
+# Fly Sunnah
 
-> This repository is being evolved from the current Document Workbench into a universal enterprise platform. The platform is not tied to travel, visa, work permits, or any single industry.
+### Universal Enterprise Platform
 
-<p align="center">
-  <img src="docs/assets/platform-overview.svg" alt="Fly Sunnah Universal Enterprise Platform overview" width="100%" />
+**One configurable core for businesses, teams, customers, operations and digital services.**
+
+<p>
+  <a href="https://github.com/flysunnah/Fly-Sunnah">Repository</a> ·
+  <a href="docs/ARCHITECTURE.md">Architecture</a> ·
+  <a href="docs/ROADMAP.md">Roadmap</a> ·
+  <a href="docs/UI-APPLICATION-SURFACE.md">Application Surface</a>
 </p>
 
-<p align="center">
-  <strong>One core engine. Multiple organizations. Configurable business capabilities.</strong>
-</p>
+</div>
 
-## Core principles
+---
 
-- Universal business model: services, products, objects, forms and workflows are configurable.
-- Enterprise-first architecture rather than SaaS-first product packaging.
-- Multi-organization isolation with B2B and B2C support.
-- Hierarchical identity: Super Admin, Admin, Sub Admin, Staff, Agent and Client.
-- Fine-grained RBAC and policy-based access control.
-- Configuration-driven modules, fields, forms, workflows, pricing, menus and feature flags.
-- Financial separation between wallet, transactions, ledger, invoices and payments.
-- Versioned templates, documents and configuration.
-- Secure file access and immutable audit history for sensitive/financial actions.
-- API-first design for web, mobile and integrations.
-- White-label branding and domain configuration per organization.
+<div align="center">
 
-## Application surfaces
+<img src="docs/assets/platform-overview.svg" alt="Fly Sunnah Universal Enterprise Platform" width="100%" />
 
-- Public Home, Services, Products, Pricing, Promotions, Offers, News, FAQ, Contact and Help Center.
-- Authentication: Login, Register, Email/Phone Verification, OTP, MFA, Recovery and Session Management.
-- Client / User Portal.
-- Staff / Agent Workspace.
-- Sub Admin Workspace.
-- Organization Admin Panel.
-- Super Admin Control Plane.
+</div>
 
-See `docs/UI-APPLICATION-SURFACE.md` for the complete application surface and role-based navigation model.
+## The product
 
-## Target platform modules
+Fly Sunnah is being built as a **universal, configuration-driven enterprise platform** rather than a product locked to one industry. The core engine provides the capabilities; organizations configure how those capabilities are used.
 
-1. Super Admin Control Plane
-2. Organization / B2B Management
-3. B2C Client Management
-4. Admin / Sub Admin / Staff / Agent Management
-5. Identity, Roles and Permissions
-6. Business Builder
-7. Object and Field Builder
-8. Form Builder
-9. Workflow Builder
-10. Automation / Rules Engine
-11. CRM / Applications / Orders
-12. Document and Template Engine
-13. Secure File Management
-14. E-Wallet
-15. Ledger
-16. Invoice / Payment / Refund
-17. Commission Engine
-18. Live Chat
-19. Support Ticketing
-20. Notifications
-21. Reports and Analytics
-22. Audit and Security
-23. White-label / Theme / Domain Engine
-24. API and Integration Layer
-25. Global Search
-26. System Health / Backup / Configuration Versioning
+That means the same platform can power a travel operation, service company, education business, agency, retail operation, internal enterprise workflow, or a future business model without rebuilding the foundation.
 
-## Visual design
+```text
+CORE ENGINE
+    │
+    ├── Identity & Organizations
+    ├── RBAC & Policy
+    ├── Business / Object / Field Builder
+    ├── Forms & Workflows
+    ├── Automation & Rules
+    ├── Documents & Files
+    ├── Wallet / Ledger / Finance
+    ├── CRM / Orders / Applications
+    ├── Communication / Support
+    ├── Analytics / Search / Audit
+    └── API / Integration / White-label
+              │
+              ▼
+        CONFIGURATION
+              │
+              ▼
+      ANY BUSINESS / WORKSPACE
+```
 
-The README architecture graphic is maintained at `docs/assets/platform-overview.svg`. It is a repository-native SVG so the product overview remains version-controlled alongside the platform documentation.
+## One platform. Multiple experiences.
 
-## Repository direction
+| Surface | Purpose |
+|---|---|
+| **Public** | Home, services, products, pricing, promotions, offers, campaigns, blog, FAQ, contact |
+| **Authentication** | Login, registration, verification, OTP, MFA, recovery, invitations, sessions |
+| **Client** | Dashboard, applications, orders, bookings, documents, invoices, wallet, messages, support |
+| **Staff / Agent** | Assigned work, customers, leads, applications, documents, tasks, commission, reports |
+| **Sub Admin** | Delegated staff, customers, operations, finance, documents, reports, configuration |
+| **Admin** | Organization users, roles, branches, CRM, ERP, finance, documents, marketing, integrations |
+| **Super Admin** | Global organizations, modules, builders, policies, feature flags, security, domains, health |
 
-The existing `index.html` remains the current browser prototype. The enterprise implementation will be modularized under the application/backend structure without discarding the prototype until the replacement is ready.
+## Enterprise suites
 
-See `docs/ARCHITECTURE.md` for the platform blueprint and `docs/ROADMAP.md` for implementation phases.
+### ERP
+Accounting · Finance · Billing · Invoice · Expense · Procurement · Inventory · Warehouse · HR · Payroll · Assets · Reporting
+
+### CRM
+Leads · Contacts · Customers · Companies · Pipeline · Deals · Activities · Tasks · Follow-ups · Customer 360 · Sales Automation
+
+### OTA / Travel
+Flights · Hotels · Packages · Transfers · Activities · Visa · Umrah / Hajj · Booking · Reservation · Cancellation · Refund · Suppliers · Agents · Commission
+
+### Documents
+Document Manager · Template Builder · PDF · DOCX · Forms · Approval · Version Control · OCR · Verification · Secure Storage · Document Workflow
+
+### Business Management
+Business Builder · Services · Products · Branches · Departments · Teams · Staff · Customers · Vendors · Partners · Contracts · Workflows · Tasks
+
+### Marketing & Sales
+Campaigns · Promotions · Coupons · Discount Rules · Referral · Affiliate · Flash Offers · Landing Pages · Audience Segmentation · Quotations · Orders · Pricing · POS
+
+### Finance
+Wallet · Transactions · Ledger · Accounts · Payments · Refunds · Receivables · Payables · Commission · Tax · Financial Reports
+
+### Communication & Support
+Inbox · Live Chat · WhatsApp · Email · SMS · Internal Chat · Notifications · Tickets · Helpdesk · Knowledge Base · SLA · Escalation
+
+### Projects & Analytics
+Projects · Tasks · Kanban · Calendar · Milestones · Time Tracking · Dashboards · KPIs · Custom Reports · Data Explorer · Export
+
+### AI & Integrations
+AI Assistant · Document AI · OCR · Classification · Extraction · AI Search · Workflow AI · REST API · Webhooks · OAuth · Payment · Messaging · Travel · Accounting integrations
+
+## Configuration is the product
+
+The platform is designed around a strict separation:
+
+**Core Engine → Configuration → Business Data**
+
+Organizations can configure supported capabilities without modifying the application source:
+
+- custom business objects
+- custom fields and relationships
+- dynamic forms
+- workflow states and transitions
+- automation rules
+- pricing and discounts
+- documents and templates
+- notifications
+- menus and module visibility
+- permissions and scopes
+- branding and domains
+- feature flags
+
+Configuration is versioned so changes can be reviewed and rolled back. Historical records retain the relevant configuration context.
+
+## Security model
+
+Authorization is enforced on the server/API layer; UI visibility is never treated as a security boundary.
+
+```text
+Super Admin
+    ↓
+Organization Admin
+    ↓
+Sub Admin
+    ↓
+Staff / Agent
+    ↓
+Client
+```
+
+Permissions are granular and scoped, for example:
+
+`application.view` · `application.approve` · `invoice.create` · `invoice.void` · `wallet.credit` · `wallet.debit` · `user.create`
+
+Supported scopes include global, organization, business unit, branch, department, team, self and assigned records.
+
+Sensitive and financial actions are audited. Wallet and ledger operations are represented as transactions rather than arbitrary balance edits.
+
+## White-label by organization
+
+Every organization can have its own configured presentation while sharing the same core platform:
+
+**Logo · Brand · Colors · Typography · Login · Dashboard · Email · Invoice · PDF · Support · Footer · Custom Domain**
+
+## Architecture
+
+The implementation direction is a modular enterprise core with strict module boundaries. It can begin as a modular monolith and extract independently scalable services only where justified.
+
+```text
+                         UNIVERSAL ENTERPRISE PLATFORM
+                                      │
+                         ┌────────────┴────────────┐
+                         │     CONTROL PLANE       │
+                         │ Super Admin / Security  │
+                         └────────────┬────────────┘
+                                      │
+          ┌───────────────────────────┼───────────────────────────┐
+          │                           │                           │
+     PLATFORM CORE              BUSINESS CORE               ORG CORE
+          │                           │                           │
+          └───────────────────────────┼───────────────────────────┘
+                                      │
+                             ORGANIZATIONS
+                                      │
+                         ┌────────────┼────────────┐
+                         B2B          B2C       INTERNAL
+```
+
+See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the full blueprint and [`docs/DOMAIN-MODEL.md`](docs/DOMAIN-MODEL.md) for the domain model.
+
+## Technology direction
+
+- **Web:** React / Next.js direction
+- **API:** TypeScript modular API architecture
+- **Database:** PostgreSQL
+- **Validation:** schema-driven validation
+- **Auth:** secure sessions / token architecture with MFA support
+- **Storage:** private object storage with controlled access
+- **Realtime:** WebSocket / realtime event layer
+- **Documents:** PDF / document generation modules
+- **Deployment:** Vercel-compatible web/API surface with separable infrastructure
+
+The stack can evolve without changing the universal business model.
+
+## Repository status
+
+This repository is in the **foundation-to-implementation phase**.
+
+The original browser-based Document Workbench prototype remains available as `index.html`. It is not being discarded until the production application replacement is ready.
+
+Current architectural documentation:
+
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
+- [`docs/ROADMAP.md`](docs/ROADMAP.md)
+- [`docs/ROLES-PERMISSIONS.md`](docs/ROLES-PERMISSIONS.md)
+- [`docs/DOMAIN-MODEL.md`](docs/DOMAIN-MODEL.md)
+- [`docs/IMPLEMENTATION-STATUS.md`](docs/IMPLEMENTATION-STATUS.md)
+- [`docs/UI-APPLICATION-SURFACE.md`](docs/UI-APPLICATION-SURFACE.md)
+
+## Implementation roadmap
+
+```text
+FOUNDATION
+  ├─ Repository / package structure
+  ├─ Database model
+  ├─ Auth + sessions
+  ├─ RBAC / policy engine
+  └─ API foundation
+
+APPLICATION
+  ├─ Public website
+  ├─ Login / Register
+  ├─ Client portal
+  ├─ Staff / Agent workspace
+  ├─ Admin / Sub Admin
+  └─ Super Admin Control Plane
+
+ENTERPRISE CORE
+  ├─ Business Builder
+  ├─ Forms / Fields / Objects
+  ├─ Workflow / Automation
+  ├─ Documents / Files
+  ├─ Finance / Wallet / Ledger
+  ├─ CRM / ERP
+  └─ Communication / Support
+
+SCALE
+  ├─ White-label
+  ├─ Integrations
+  ├─ Analytics / AI
+  ├─ System health
+  └─ Backup / recovery / versioning
+```
+
+## Design direction
+
+The application UI is intended to feel like a serious enterprise product: dense but readable information architecture, strong visual hierarchy, consistent design tokens, responsive layouts, accessible controls and role-aware navigation.
+
+The README artwork is a product visualization, not a claim that every illustrated screen is already production-complete.
+
+---
+
+<div align="center">
+
+**Fly Sunnah — Universal Enterprise Platform**  
+*Build the business model once. Configure the experience for each organization.*
+
+</div>
