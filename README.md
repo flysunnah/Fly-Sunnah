@@ -4,6 +4,14 @@ A configuration-driven, white-label, multi-organization enterprise platform foun
 
 > This repository is being evolved from the current Document Workbench into a universal enterprise platform. The platform is not tied to travel, visa, work permits, or any single industry.
 
+<p align="center">
+  <img src="docs/assets/platform-overview.svg" alt="Fly Sunnah Universal Enterprise Platform overview" width="100%" />
+</p>
+
+<p align="center">
+  <strong>One core engine. Multiple organizations. Configurable business capabilities.</strong>
+</p>
+
 ## Core principles
 
 - Universal business model: services, products, objects, forms and workflows are configurable.
@@ -17,6 +25,18 @@ A configuration-driven, white-label, multi-organization enterprise platform foun
 - Secure file access and immutable audit history for sensitive/financial actions.
 - API-first design for web, mobile and integrations.
 - White-label branding and domain configuration per organization.
+
+## Application surfaces
+
+- Public Home, Services, Products, Pricing, Promotions, Offers, News, FAQ, Contact and Help Center.
+- Authentication: Login, Register, Email/Phone Verification, OTP, MFA, Recovery and Session Management.
+- Client / User Portal.
+- Staff / Agent Workspace.
+- Sub Admin Workspace.
+- Organization Admin Panel.
+- Super Admin Control Plane.
+
+See `docs/UI-APPLICATION-SURFACE.md` for the complete application surface and role-based navigation model.
 
 ## Target platform modules
 
@@ -46,6 +66,10 @@ A configuration-driven, white-label, multi-organization enterprise platform foun
 24. API and Integration Layer
 25. Global Search
 26. System Health / Backup / Configuration Versioning
+
+## Visual design
+
+The README architecture graphic is maintained at `docs/assets/platform-overview.svg`. It is a repository-native SVG so the product overview remains version-controlled alongside the platform documentation.
 
 ## Repository direction
 
